@@ -1,0 +1,25 @@
+.footer{
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: black;
+  padding: 3px 15px;
+  text-align: center;
+  color: aliceblue;
+ 
+}
+
+
+.logo {
+  height: 30px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.flexy {
+  display: flex;
+  flex-direction: row; /* horizontal */
+}
+
+
+

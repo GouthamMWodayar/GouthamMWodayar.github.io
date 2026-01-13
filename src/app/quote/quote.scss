@@ -1,0 +1,41 @@
+/* Center the container on the page */
+.form-container {
+  width: 400px;               /* fixed width */
+  margin: 50px auto;          /* center horizontally */
+  padding: 30px;              /* inner spacing */
+  border: 2px solid #007bff;  /* border color */
+  border-radius: 10px;        /* rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow */
+  display: flex;
+  flex-direction: column;     /* stack inputs vertically */
+  gap: 15px;                  /* space between inputs */
+  background-color: #fdfdfd;  /* light background */
+  text-align: center;         /* center align content */
+}
+
+/* Inputs and textarea styling */
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.form-container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}

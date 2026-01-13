@@ -1,0 +1,22 @@
+
+<!-- cards.component.html -->
+<div class="cards-container">
+  @for (card of cards; track card.title) {
+    <div class="card">
+    <mat-icon aria-hidden="false"  [fontIcon]="card.icon" class="icon"></mat-icon>
+      <h3 class="card-title">{{ card.title }}</h3>
+      <p class="card-text">{{ card.description }}</p>
+    </div>
+  }
+</div>
+
+<!-- <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div> -->
+

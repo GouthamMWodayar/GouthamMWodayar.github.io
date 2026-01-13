@@ -1,0 +1,16 @@
+<h1>Our Products</h1>
+<div class="cards-container">
+    @for(card of cards;track card.title){
+  <div class="card" >
+    
+    <div class="card-content">
+    <h3>{{ card.title }}</h3>
+    <p>{{ card.description }}</p>
+      </div>
+      <img [src]="card.pic" [alt]="card.title" class="card-image" />
+      <br>
+      <button matButton="elevated">Know More</button>
+  </div>
+  
+}
+</div>

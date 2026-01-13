@@ -1,0 +1,46 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(0);
+  transition: transform 0.1s ease, filter 0.1s ease;
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+}
+
+
+.carousel-container {
+  height: 500px; /* must be set */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.img-30 {
+  width: 35vw;   /* 35% of viewport width */
+  height: auto;
+  
+}
+
+
+.carousel-inner {
+  height:90vh; /* or any fixed height you want */
+}
+
+.carousel-inner img {
+  height: 100%;        /* image fills container */
+  width: 100%;
+  object-fit: cover;   /* crop/scale nicely without stretching */
+}
+
+#desc{
+color: white;
+
+}
+
+.left-caption {
+  left: 5%;
+  right: auto;
+  text-align: left;
+  bottom: 20%;
+}

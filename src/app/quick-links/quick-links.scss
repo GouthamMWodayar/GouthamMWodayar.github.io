@@ -1,0 +1,60 @@
+
+
+.social a{
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.social a:hover{
+  color: rgb(145, 102, 53);
+}
+// .container{
+//     background-color: bisque;
+//     width: 100%;
+//     display: grid;
+//   grid-template-columns: auto auto auto;
+// }
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  background-color: rgb(241, 242, 243);
+  padding: 20px;
+}
+.container div {
+  background-color: #f1f1f1;
+  // border: 1px solid black;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.quick{
+    text-decoration-style: none;
+    flex-direction: column;
+}
+
+h4 ,h6 {
+  color: blue;
+}
+
+ul {
+  list-style-type: none; /* removes bullets */
+  padding: 10px;            /* removes default left padding */
+
+}
+
+li {
+  margin-right: 20px; /* space between list items horizontally */
+  margin-bottom: 10px; /* space between items vertically if stacked */
+}
+.call-us {
+  display: flex;
+  align-items: center; /* vertically center text */
+  gap: 5px;  
+        /* horizontal space between elements */
+}

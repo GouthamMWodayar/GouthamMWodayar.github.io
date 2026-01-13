@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="quick">
+        <h4>Quick Links</h4>
+        <ul>
+            @for (item of qc; track item) {
+            <li>{{ item }}</li>
+            }
+        </ul>
+</div>
+        <!-- <div class="services">
+            <h4>Services</h4>
+            <ul>
+                @for (item of items; track item) {
+                <li>{{ item }}</li>
+                }
+            </ul>
+
+        </div> -->
+        <div class="address">
+            <h4>Address</h4>
+            <p>63/1 1st main 3rd B cross malleshpalya Bangalore-560075</p>
+            <div class="call-us">
+            <h6>Call Us :</h6>
+            <span>+91 7760182111 / +91 9945398912</span>
+            </div>
+            <div class="call-us">
+            <h6>Email Us :</h6>
+            <a href="mailto:info@hvtransport.in?subject=Hello&body=Hi there">
+                info@hvtransport.in</a>
+                </div>
+
+        </div>
+
+        <div class="social">
+            <h4>Social Media</h4>
+            <a href="https://www.instagram.com/hv_transport?igsh=bjR3aTU5NTRoc2l6" target="_blank" class="bi bi-instagram" id="sc"></a>
+            <a href="https://www.facebook.com/profile.php?viewas=&id=61586104062139&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true" target="_blank" class="bi bi-facebook"></a>
+            <!-- <a href="mailto:test@example.com?subject=Hello&body=Hi there" class="bi bi-threads"></a> -->
+            <!-- <a href="mailto:test@example.com?subject=Hello&body=Hi there" class="bi bi-envelope-at"></a> -->
+            <a href="https://api.whatsapp.com/send?phone=6366697569&text=Hello"  target="_blank" class="bi bi-whatsapp"></a>
+
+        </div>
+    </div> 
+
+    <!-- <mat-grid-list cols="4" rowHeight="100px">
+  @for (tile of tiles; track tile) {
+    <mat-grid-tile
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows"
+      [style.background]="tile.color">{{tile.text}}</mat-grid-tile>
+  }
+      
+</mat-grid-list> -->
+

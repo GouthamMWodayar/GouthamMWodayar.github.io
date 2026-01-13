@@ -1,0 +1,71 @@
+<!-- <div class="headerbar">
+<mat-toolbar>
+  <span>Kiran Exports</span>
+ <ul class="menu">
+  @for (item of menu; track item.title) {
+    <li class="menu-item">
+      {{ item.title }}
+
+
+      <ul class="submenu">
+        @for (child of item.children; track child) {
+          <li>{{ child }}</li>
+        }
+      </ul>
+    </li>
+  }
+</ul>
+
+<button class="btnquote" matButton="outlined">Get Quote</button>
+
+
+</mat-toolbar>
+</div> -->
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: red;">
+ <i class="bi bi-envelope-open">nfo@hvtransport.in</i>
+ <i class="bi bi-telephone"></i>
+</nav> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navb">
+  
+  <a class="navbar-brand" id='cname' href="#">
+    <img src="iconic.png" width="50" height="35" class="d-inline-block align-top"  alt="Hello">
+   
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"> <i class="bi bi-envelope-open" style="color: red;">Email : info@hvtransport.in</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"> <i class="bi bi-telephone" style="color: red;" >Phone no- +917760182111 / +919945398912</i></a>
+      </li>
+    </ul>
+   <button type="button" class="btn btn-outline-danger" (click)="scrollToTarget()">Get Quote</button>
+  </div>
+</nav>
